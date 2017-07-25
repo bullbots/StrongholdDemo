@@ -1,0 +1,9 @@
+right joystick - turning joystick
+ button 1 - fire
+ button 2 - raise horns
+ button 3 - shoot low
+ button 4 - collect
+ button 5 - shoot high
+ button 6 - run compressor
+left joystick - throttle joystick
+ button 2 - quick turn

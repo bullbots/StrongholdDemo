@@ -71,17 +71,17 @@ public class OI {
         joystick1 = new Joystick(0);
         joystick2 = new Joystick(1);
         
-        compress = new JoystickButton(joystick1, 6);
+        compress = new JoystickButton(joystick2, 6);
         compress.whileHeld(new CompressorOn());
-        shootHigh = new JoystickButton(joystick1, 5);
+        shootHigh = new JoystickButton(joystick2, 5);
         shootHigh.whileHeld(new HighShot());
-        shootLow = new JoystickButton(joystick1, 3);
+        shootLow = new JoystickButton(joystick2, 3);
         shootLow.whileHeld(new LowShot());
-        collect = new JoystickButton(joystick1, 4);
+        collect = new JoystickButton(joystick2, 4);
         collect.whileHeld(new Intake());
-        raiseHorns = new JoystickButton(joystick1, 2);
+        raiseHorns = new JoystickButton(joystick2, 2);
         raiseHorns.whileHeld(new HornsUp());
-        fire = new JoystickButton(joystick1, 1);
+        fire = new JoystickButton(joystick2, 1);
         fire.whileHeld(new Fire());
 
 

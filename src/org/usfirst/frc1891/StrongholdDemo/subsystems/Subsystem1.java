@@ -67,6 +67,12 @@ public class Subsystem1 extends Subsystem {
     	leftMaster.set(deadBand(rightJoy.getY(), 0.1));
     }
     
+    public void joyDrive(double leftJoy, double rightJoy)
+    {
+    	rightMaster.set(leftJoy);
+    	leftMaster.set(rightJoy);
+    }
+    
  // Creates an area on joystick where no value is registered. Prevents controller touchiness.
     private double deadBand(double axisVal, double deadBand)
 	{
